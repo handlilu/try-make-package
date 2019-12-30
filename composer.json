@@ -1,0 +1,23 @@
+{
+    "name": "lilu/try-make-package",
+    "description": "try-make-package",
+    "type": "library",
+    "license": "ll",
+    "authors": [
+        {
+            "name": "lilu",
+            "email": "lilu_12611@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flower\\Rose\\": "src/Flower/Rose",
+            "Flower\\Lily\\": "src/Flower/Lily"
+        }
+  }
+}
